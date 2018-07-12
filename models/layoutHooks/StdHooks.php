@@ -234,7 +234,7 @@ class StdHooks extends HooksAdapter
             return '<div class="antragsgruenAd well">
         <div class="nav-header">Dein Antragsgrün</div>
         <div class="content">
-            Du willst Antragsgrün selbst für deine(n) KV / LV / GJ / BAG / LAG einsetzen?
+            Du willst Antragsgrün selbst für Deine Organisation einsetzen?
             <div>
                 <a href="https://antragsgruen.de/" title="Das Antragstool selbst einsetzen" class="btn btn-primary">
                 <span class="glyphicon glyphicon-chevron-right"></span> Infos
