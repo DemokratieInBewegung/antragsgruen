@@ -36,6 +36,10 @@ abstract class IPDFLayout
                 'title'   => 'DBJR',
                 'preview' => $params->resourceBase . 'img/pdf_preview_dbjr.png',
             ],
+            3  => [
+                'title'   => 'DiBSatzung Satzung',
+                'preview' => $params->resourceBase . 'img/pdf_preview_byldk.png',
+            ],
         ];
     }
 
@@ -55,6 +59,8 @@ abstract class IPDFLayout
                 return BDK::class;
             case 2:
                 return DBJR::class;
+            case 3:
+                return DiBSatzung::class;
             default:
                 throw new Internal('Unknown PDF Layout');
         }
