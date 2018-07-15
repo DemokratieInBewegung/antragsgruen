@@ -8,7 +8,7 @@ return [
     'contactHead'         => 'Kontakt für Rückfragen',
     'orgaContactName'     => 'Ansprechperson',
     'username'            => 'Benutzer*in',
-    'name'                => 'Name',
+    'name'                => 'Name(n)',
     'nameOrga'            => 'Name des Gremiums',
     'orgaName'            => 'Gremium, LAG...',
     'orgaResolution'      => 'Beschlussdatum',

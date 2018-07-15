@@ -65,7 +65,8 @@ if ($allowOther) {
     }
 }
 
-echo '<div class="form-group">
+
+echo '<div style="display:none;" class="form-group">
 <label class="col-sm-3 control-label">' . Yii::t('initiator', 'iAmA') . '</label>
 <div class="col-sm-9">
 <label class="radio-inline">';
@@ -93,6 +94,7 @@ echo ' ' . Yii::t('initiator', 'personOrganization') . '
 </label>
 </div>
 </div>';
+
 
 if ($adminMode) {
     echo '<div class="form-group">
@@ -137,7 +139,7 @@ echo '</div></div>
 </div>';
 
 
-echo '<div class="form-group row contact-head"><div class="col-sm-9 col-sm-offset-3 contact-head">' .
+echo '<div style="display:none;" class="form-group row contact-head"><div class="col-sm-9 col-sm-offset-3 contact-head">' .
     '<h3>' . \Yii::t('initiator', 'contactHead') . '</h3>' .
     '<div class="hint">(' . \Yii::t('initiator', 'visibilityAdmins') . ')</div></div></div>';
 
