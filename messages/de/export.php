@@ -2,7 +2,7 @@
 
 return [
     'Page'                  => 'Seite',
-    'Initiators'            => 'Initiator*innen',
+    'Initiators'            => 'Antragsteller*innen',
     'introduction'          => 'Antrag an die...',
     'InitiatorSingle'       => 'Antragsteller*in',
     'InitiatorMulti'        => 'Antragsteller*innen',
