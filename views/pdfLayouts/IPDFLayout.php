@@ -38,7 +38,7 @@ abstract class IPDFLayout
             ],
             3  => [
                 'title'   => 'DiBSatzung Satzung',
-                'preview' => $params->resourceBase . 'img/pdf_preview_byldk.png',
+                'preview' => $params->resourceBase . 'img/pdf_preview_dib_satzung.png',
             ],
         ];
     }
