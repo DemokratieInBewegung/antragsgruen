@@ -52,7 +52,7 @@ Bitte beachte, dass sich die Unterstützer*innen deines Änderungsantrags mit ih
     'screened_hint'                     => 'Geprüft',
     'amend_for'                         => ' zu ',
     'create_explanation'                => 'Bitte ändere unten den ursprünglichen Text so ab, wie du ihn gerne beschlossen haben möchtest.<br><br>' . "\n" .
-        'Unter &quot;<strong>Begründung</strong>&quot; kannst du die Änderung begründen. Die Erfahrung zeigt, dass Anträge mit einer schriftlichen Begründung deutlich häufiger angenommen werden.<br>',
+        'Unter &bdquo;<strong>Begründung</strong>&ldquo; kannst du die Änderung begründen. Die Erfahrung zeigt, dass Anträge mit einer schriftlichen Begründung deutlich häufiger angenommen werden.<br>',
     'support_collect_explanation_title' => 'Einen Änderungsantrag gemeinschaftlich stellen',
     'support_collect_explanation'       => 'Änderungsanträge, die nicht von Gremien gestellt werden, müssen mindestens %MIN% Unterstützer*innen finden, um zugelassen zu werden. Um einen solchen Änderungsantrag einzureichen, gehe wie folgt vor:<br>
 <ol>

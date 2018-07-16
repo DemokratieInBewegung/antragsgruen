@@ -140,7 +140,8 @@ Bitte beachte, dass sich die Unterstützer*innen deines Antrags mit ihren Zugang
     'max_len_alert'                      => 'Der Text ist zu lang!',
     'create_explanation'                 => 'Wenn du einen <em>eigenständigen Antrag</em> stellen willst, bist du hier richtig.
         Wenn du einen <em>Änderungsantrag</em> oder einen <em>Antrag zur Änderung der Satzung oder einer Ordnung</em> stellen willst, öffne auf der <a href="%HOME%">Startseite</a>
-        bitte zuerst den zu ändernden Antrag und wähle dann rechts oben &bdquo;Änderungsantrag stellen&ldquo;. Näheres findest Du auf der <a href="%HELP%">Hilfeseite</a>.',
+        bitte zuerst den zu ändernden Antrag und wähle dann rechts oben &bdquo;Änderungsantrag stellen&ldquo;. Näheres findest Du auf der <a href="%HELP%">Hilfeseite</a>.
+        <br><br>Unter &bdquo;<strong>Begründung</strong>&ldquo; kannst du Deinen Antrag begründen. Die Erfahrung zeigt, dass Anträge mit einer schriftlichen Begründung deutlich häufiger angenommen werden.',
     'create_explanation_title'           => 'Antrag oder Änderungsantrag?',
     'support_collect_explanation_title'  => 'Einen Antrag gemeinschaftlich stellen',
     'support_collect_explanation'        => 'Ein Antrag, der nicht von Parteigremien gestellt wird, kann gemäß unserer Statuten auch gemeinschaftlich von %MIN+1% Mitgliedern gestellt werden. Um einen solchen Antrag zu stellen und offiziell bei der Antragskommission einzureichen, gehe bitte wie folgt vor:<br>
