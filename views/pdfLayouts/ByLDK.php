@@ -69,7 +69,7 @@ class ByLDK extends IPDFLayout
                 'color' => array(150, 150, 150),
             ]
         );
-        $pdf->Line((210 - $width) / 2, 78, (210 + $width) / 2, 78);
+        $pdf->Line((212 - $width) / 2, 78, (212 + $width) / 2, 78);
 
         $pdf->SetY(90);
         if ($this->motionType->getSettingsObj()->pdfIntroduction) {
@@ -174,7 +174,7 @@ class ByLDK extends IPDFLayout
                 'color' => array(150, 150, 150),
             ]
         );
-        $pdf->Line((210 - $width) / 2, 78, (210 + $width) / 2, 78);
+        $pdf->Line((212 - $width) / 2, 78, (212 + $width) / 2, 78);
 
         $pdf->SetY(90);
         if ($this->motionType->getSettingsObj()->pdfIntroduction) {
