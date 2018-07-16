@@ -128,7 +128,7 @@ class ConsultationUserPrivilege extends ActiveRecord
         $consUrl   = UrlHelper::createUrl('consultation/index');
         $consUrl   = UrlHelper::absolutizeLink($consUrl);
         $emailText = str_replace('%LINK%', $consUrl, $emailText);
-        $emailText = str_replace('%NAME%', $user->name, $emailText);
+        $emailText = str_replace('%NAME%', explode (' ',$user->name,2) [0], $emailText);
 
         try {
             MailTools::sendWithLog(
