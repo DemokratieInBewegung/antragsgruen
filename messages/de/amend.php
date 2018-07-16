@@ -51,7 +51,7 @@ Bitte beachte, dass sich die Unterstützer*innen deines Änderungsantrags mit ih
     'submitted_screening_email_subject' => 'Änderungsantrag eingereicht',
     'screened_hint'                     => 'Geprüft',
     'amend_for'                         => ' zu ',
-    'create_explanation'                => 'Bitte ändere unten den ursprünglichen Antragstext so ab, wie du ihn gerne beschlossen haben möchtest.<br>' . "\n" .
+    'create_explanation'                => 'Bitte ändere unten den ursprünglichen Text so ab, wie du ihn gerne beschlossen haben möchtest.<br>' . "\n" .
         'Unter &quot;<strong>Begründung</strong>&quot; kannst du die Änderung begründen.<br>',
     'support_collect_explanation_title' => 'Einen Änderungsantrag gemeinschaftlich stellen',
     'support_collect_explanation'       => 'Änderungsanträge, die nicht von Gremien gestellt werden, müssen mindestens %MIN% Unterstützer*innen finden, um zugelassen zu werden. Um einen solchen Änderungsantrag einzureichen, gehe wie folgt vor:<br>
