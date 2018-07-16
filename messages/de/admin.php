@@ -226,15 +226,18 @@ Die Benutzer*innenverwaltung unten kommt erst dann voll zur Geltung, wenn die Le
     'siteacc_accounts_title'   => 'Benutzer*innen-Accounts',
     'siteacc_email_text_pre'   => 'Hallo,
 
-wir haben dir soeben Zugang zu unserer Antragsgrün-Seite eingerichtet, ' .
-        'auf der du über unseren Entwurf mitdiskutieren kannst.
+wir haben Dir eben einen Zugang zu unserer neuen Antragstool-Seite eingerichtet, ' .
+'auf der Du Anträge an den Bundesparteitag stellen und lesen kannst.
+
 Hier ist der Zugang:
 
 %LINK%
+
 %ACCOUNT%
 
-Liebe Grüße,
-  Das Antragsgrün-Team',
+Herzliche Grüße vom
+
+Papiertiger-Team',
     'siteacc_acc_expl_mail'    => '<h3>Erklärung:</h3>
 Wenn die Antragsgrün-Seite oder die Antrags-/Kommentier-Funktion nur für bestimmte Mitglieder zugänglich sein soll,
 kannst du hier die Benutzer*innen anlegen, die Zugriff haben sollen.<br>
