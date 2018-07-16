@@ -63,7 +63,7 @@ if (in_array(SiteSettings::LOGIN_STD, $loginMethods)) {
     <div class="checkbox">
         <label>
             <input type="checkbox" name="createAccount" id="createAccount" <?= $preChecked ?>>
-            <?= \Yii::t('user', 'login_create_account') ?>
+            <?= str_replace('%HELP%', UrlHelper::helpUrl(), \Yii::t('user', 'login_create_account')) ?>
         </label>
     </div>
 

@@ -171,6 +171,15 @@ class UrlHelper
     }
 
     /**
+     * @param string|array $route
+     * @return string
+     */
+    public static function helpUrl()
+    {
+        return static::createUrl('/page/help');
+    }
+
+    /**
      * @return string
      */
     public static function homeUrl()

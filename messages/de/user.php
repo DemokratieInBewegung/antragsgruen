@@ -71,7 +71,7 @@ return [
 
     'login_title'             => 'Login',
     'login_username_title'    => 'Login per Benutzer*innenname / Passwort',
-    'login_create_account'    => 'Neuen Zugang anlegen<br>(nicht für Parteimitglieder, siehe Hilfeseite)',
+    'login_create_account'    => 'Neuen Zugang anlegen<br>(nicht für Parteimitglieder, siehe <a href="%HELP%">Hilfeseite</a>)',
     'login_username'          => 'E-Mail-Adresse / Benutzer*innenname',
     'login_email_placeholder' => 'E-Mail-Adresse',
     'login_password'          => 'Passwort',
