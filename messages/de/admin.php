@@ -224,7 +224,7 @@ Die Benutzer*innenverwaltung unten kommt erst dann voll zur Geltung, wenn die Le
     'siteacc_add_name_place'   => 'Name',
     'siteacc_add_btn'          => 'Hinzufügen',
     'siteacc_accounts_title'   => 'Benutzer*innen-Accounts',
-    'siteacc_email_text_pre'   => 'Hallo,
+    'siteacc_email_text_pre'   => 'Hallo %NAME%,
 
 wir haben Dir eben einen Zugang zu unserer neuen Antragstool-Seite eingerichtet, ' .
 'auf der Du Anträge an den Bundesparteitag stellen und lesen kannst.
