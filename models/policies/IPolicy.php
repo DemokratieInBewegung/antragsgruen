@@ -148,6 +148,7 @@ abstract class IPolicy
      */
     public function checkCurrUserComment($allowAdmins = true, $assumeLoggedIn = false)
     {
+        return !!User::getCurrentUser();
         $deadlineType = ConsultationMotionType::DEADLINE_COMMENTS;
         return $this->checkCurrUserWithDeadline($deadlineType, $allowAdmins, $assumeLoggedIn);
     }

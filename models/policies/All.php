@@ -73,7 +73,7 @@ class All extends IPolicy
             $deadlines = DateTools::formatDeadlineRanges($this->motionType->getDeadlinesByType($deadlineType));
             return \Yii::t('structure', 'policy_deadline_over_comm') . ' ' . $deadlines;
         }
-        return '';
+        return \Yii::t('structure', 'policy_logged_comm_denied');
     }
 
     /**
