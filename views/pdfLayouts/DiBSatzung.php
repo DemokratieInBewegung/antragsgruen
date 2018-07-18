@@ -177,17 +177,19 @@ class DiBSatzung extends IPDFLayout
         $pdf->Line((212 - $width) / 2, 78, (212 + $width) / 2, 78);
 
         $pdf->SetY(90);
-        if ($this->motionType->getSettingsObj()->pdfIntroduction) {
-            $intro = $this->motionType->getSettingsObj()->pdfIntroduction;
-        } else {
-            $intro = \Yii::t('export', 'introduction');
-        }
-        if ($intro) {
-            $pdf->SetX(24);
-            $pdf->SetFont('helvetica', 'B', 12);
-            $pdf->MultiCell(160, 13, $intro, 0, 'C');
-            $pdf->Ln(7);
-        }
+
+// no introduction for amendments in this style
+//        if ($this->motionType->getSettingsObj()->pdfIntroduction) {
+//            $intro = $this->motionType->getSettingsObj()->pdfIntroduction;
+//        } else {
+//            $intro = \Yii::t('export', 'introduction');
+//        }
+//        if ($intro) {
+//            $pdf->SetX(24);
+//            $pdf->SetFont('helvetica', 'B', 12);
+//            $pdf->MultiCell(160, 13, $intro, 0, 'C');
+//            $pdf->Ln(7);
+//        }
 
 
         $pdf->SetX(12);
