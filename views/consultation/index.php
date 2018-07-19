@@ -46,7 +46,7 @@ echo $layout->getMiniMenu('sidebarSmall');
 
 echo '<div class="content contentPage contentPageWelcome" style="overflow: auto;">';
 
-if (count($consultation->motionTypes) === 1) {
+if (count($consultation->motionTypes) >= 1) {
     $deadline = $consultation->motionTypes[0]->getUpcomingDeadline(ConsultationMotionType::DEADLINE_MOTIONS);
     if ($deadline) {
         echo '<p class="deadlineCircle">' . \Yii::t('con', 'deadline_circle') . ': ';
