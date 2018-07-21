@@ -19,7 +19,7 @@ return [
     'email_notifications'  => 'E-Mail-Benachrichtigungen',
     'activity_log'         => 'Aktivitäten',
     'feed_motions'         => 'Anträge',
-    'feed_amendments'      => 'Änderungsanträge',
+    'feed_amendments'      => 'Änderungsvorschläge',
     'feed_comments'        => 'Kommentare',
     'feed_all'             => 'Alles',
     'feed'                 => 'Feed',
