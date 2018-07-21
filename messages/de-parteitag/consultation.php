@@ -1,6 +1,6 @@
 <?php
 return [
-    'start_motion'   => 'Neuen Antrag stellen',
-    'new_motions'    => 'Neue Anträge',
-    'new_amendments' => 'Neue Änderungsanträge',
+    'start_motion'   => 'Neues Kapitel anlegen',
+    'new_motions'    => 'Neue Kapitel',
+    'new_amendments' => 'Neue Änderungsvorschläge',
 ];

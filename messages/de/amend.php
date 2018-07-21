@@ -51,8 +51,8 @@ Bitte beachte, dass sich die Unterstützer*innen deines Änderungsvorschlag mit 
     'submitted_screening_email_subject' => 'Änderungsvorschlag eingereicht',
     'screened_hint'                     => 'Geprüft',
     'amend_for'                         => ' zu ',
-    'create_explanation'                => 'Bitte ändere unten den ursprünglichen Text so ab, wie du ihn gerne beschlossen haben möchtest.<br><br>' . "\n" .
-        'Unter &bdquo;<strong>Begründung</strong>&ldquo; kannst du die Änderung begründen. Die Erfahrung zeigt, dass Anträge mit einer schriftlichen Begründung deutlich häufiger angenommen werden.<br>',
+    'create_explanation'                => 'Bitte ändere unten den ursprünglichen Text so ab, wie du ihn gerne im Programm hättest.<br><br>' . "\n" .
+        'Unter &bdquo;<strong>Begründung</strong>&ldquo; kannst du die Änderung begründen.<br>',
     'support_collect_explanation_title' => 'Einen Änderungsantrag gemeinschaftlich stellen',
     'support_collect_explanation'       => 'Änderungsanträge, die nicht von Gremien gestellt werden, müssen mindestens %MIN% Unterstützer*innen finden, um zugelassen zu werden. Um einen solchen Änderungsantrag einzureichen, gehe wie folgt vor:<br>
 <ol>
@@ -146,7 +146,7 @@ Bitte beachte, dass sich die Unterstützer*innen deines Änderungsvorschlag mit 
         "  Das Antragsgrün-Team",
     'published_email_title'             => 'Änderungsvorschlag veröffentlicht',
     'sidebar_adminedit'                 => 'Admin: bearbeiten',
-    'sidebar_back'                      => 'Zurück zum Antrag',
+    'sidebar_back'                      => 'Zurück zum Kapitel',
     'sidebar_mergeintomotion'           => 'In den Antrag übernehmen',
     'back_to_amend'                     => 'Zurück zum Änderungsvorschlag',
     'initiated_by'                      => 'gestellt von',

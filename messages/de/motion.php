@@ -113,7 +113,7 @@ Bitte beachte, dass sich die Unterstützer*innen deines Antrags mit ihren Zugang
         "Mit freundlichen Grüßen,\n" .
         "  Das Antragsgrün-Team",
     'published_email_title'              => 'Antrag veröffentlicht',
-    'back_to_motion'                     => 'Zurück zum Antrag',
+    'back_to_motion'                     => 'Zurück zum Kapitel',
     'edit_done'                          => 'Antrag bearbeitet',
     'edit_done_msg'                      => 'Die Änderungen wurden übernommen.',
     'edit_bread'                         => 'Bearbeiten',
