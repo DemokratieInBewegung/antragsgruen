@@ -11,7 +11,7 @@ return [
     'amend_number_global'    => 'Ä1 zu A1 (Globale Zählung)',
     'amend_number_perline'   => 'A01-070 (Zählung nach betroffener Zeile)',
 
-    'policy_deadline_over'       => 'Der Antragsschluss ist vorbei.<br>Das Anlegen ist möglich:',
+    'policy_deadline_over'       => 'Der Antragsschluss ist vorbei.',
     'policy_deadline_over_comm'  => 'Zum aktuellen Zeitpunkt sind keine Kommenare möglich.<br>Das Kommentieren ist möglich:',
     'policy_deadline_over_merge' => 'Zum aktuellen Zeitpunkt ist das Einpflegen nicht möglich.<br>Das Einpflegen ist möglich:',
     'policy_deadline_from'       => 'ab %from%',
@@ -193,4 +193,8 @@ return [
     'remaining_minute'  => 'Minute',
     'remaining_seconds' => 'Sekunden',
     'remaining_second'  => 'Sekunde',
+
+    'robots_policy_none'      => 'Keine',
+    'robots_policy_only_home' => 'Nur die Startseite, keine Anträge',
+    'robots_policy_all'       => 'Alle Seiten, die ohne Login zugänglich sind',
 ];
