@@ -15,7 +15,7 @@ $assets = \app\plugins\green_manager\Assets::register($this);
 $this->title = 'Discuss.green - Managing motions and amendments online';
 $controller  = $this->context;
 $controller->layoutParams->addCSS('css/manager.css');
-$controller->layoutParams->canonicalUrl      = 'https://motion.tools/';
+$controller->layoutParams->canonicalUrl      = 'https://discuss.green/';
 $controller->layoutParams->alternateLanuages = ['de' => 'https://antragsgruen.de/'];
 
 $layout                   = $controller->layoutParams;
@@ -45,7 +45,7 @@ $params = \Yii::$app->params;
 <h2 id="who_uses_it" class="green">Who is already using it?</h2>
 <div class="content contentWhoUsesIt">
     <div class="list">
-        <a href="https://antraege.gruene.de/" target="_blank">
+        <a href="https://antraege.gruene.de/bdk41" target="_blank">
             <img src="<?= $assets->baseUrl ?>/logo-b90.svg" alt="Bündnis 90 / Die GRÜNEN">
             <div class="name">Bündnis 90 / Die GRÜNEN</div>
             <div class="hint">Federal Association</div>
@@ -140,18 +140,18 @@ $params = \Yii::$app->params;
         in other languages, please contact us.</p>
 </div>
 
-<h2 id="selbst_nutzen" class="green">Contact</h2>
+<h2 id="contact" class="green">Contact</h2>
 
 <div class="content infoSite">
     <p style="margin-top: 35px;"><strong>Are there functions missing?
             Do you require professional support and special adaptations?</strong></p>
-    <p>If you need customised programming or you would like us to host Antragsgrün on a designated domain, we implement
-        this at an hourly rate.</p>
+    <p>If you need customised programming or you would like us to host Antragsgrün / Discuss.green on a designated
+        domain, we implement this at an hourly rate.</p>
     <p>
         We are here to answer your questions and requests:
     </p>
     <ul>
-        <li>E-Mail: <a href="mailto:info@antragsgruen.de">info@antragsgruen.de</a></li>
+        <li>E-Mail: <a href="mailto:info@discuss.green">info@discuss.green</a></li>
         <li>Phone: +49-1515-6024223</li>
     </ul>
 </div>
