@@ -229,7 +229,7 @@ Die Benutzer*innenverwaltung unten kommt erst dann voll zur Geltung, wenn die Le
     'siteacc_email_text_pre'   => 'Hallo %NAME%,
 
 wir haben Dir eben einen Zugang zu einer Seite eingerichtet, ' .
-'auf der Du am Feedback-Prozess zum Programm des European Spring teilnehmen kannst.
+'auf der Du am Feedback-Prozess zum Programmentwurf des European Spring teilnehmen kannst.
 
 Hier ist der Zugang:
 
