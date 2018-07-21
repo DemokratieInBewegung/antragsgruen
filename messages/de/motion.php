@@ -6,7 +6,7 @@ return [
     'Confirm Motion'                     => 'Antrag bestätigen',
     'confirm_bread'                      => 'Bestätigen',
     'create_prerequisites'               => 'Voraussetzungen für einen Antrag',
-    'amendment_create'                   => 'Änderungsvorschlag machen',
+    'amendment_create'                   => 'Änderung vorschlagen',
     'amendment_create_admin'             => 'nur Admins',
     'amendments_merge'                   => 'Änderungsvorschläge einpflegen',
     'amendments_merge_noamend'           => 'Änderungen einpflegen',
