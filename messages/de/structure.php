@@ -32,6 +32,8 @@ return [
     'policy_admin_comm_denied'   => 'Nur Admins dürfen kommentieren',
     'policy_admin_supp_denied'   => 'Nur Admins dürfen unterstützen',
 
+    'policy_accounts_title'       => 'Accounts',
+    'policy_accounts_desc'        => 'Accounts',
     'policy_all_title'            => 'Alle',
     'policy_all_desc'             => 'Alle',
     'policy_nobody_title'         => 'Niemand',

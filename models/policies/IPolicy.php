@@ -16,6 +16,7 @@ abstract class IPolicy
     const POLICY_ADMINS       = 3;
     const POLICY_WURZELWERK   = 4;
     const POLICY_ORGANIZATION = 5;
+    const POLICY_ACCOUNTS     = 6;
 
     /**
      * @return IPolicy[]
@@ -27,6 +28,7 @@ abstract class IPolicy
             static::POLICY_ALL       => All::class,
             static::POLICY_LOGGED_IN => LoggedIn::class,
             static::POLICY_NOBODY    => Nobody::class,
+            static::POLICY_ACCOUNTS  => Accounts::class,
         ];
 
         /** @var AntragsgruenApp $params */
