@@ -125,7 +125,7 @@ class ConsultationUserPrivilege extends ActiveRecord
             $privilege->save();
         }
 
-        $consUrl   = UrlHelper::createUrl('consultation/index');
+        $consUrl   = UrlHelper::loginUrl();
         $consUrl   = UrlHelper::absolutizeLink($consUrl);
         $emailText = str_replace('%LINK%', $consUrl, $emailText);
         $emailText = str_replace('%NAME%', explode (' ',$user->name,2) [0], $emailText);

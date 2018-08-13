@@ -171,12 +171,19 @@ class UrlHelper
     }
 
     /**
-     * @param string|array $route
      * @return string
      */
     public static function helpUrl()
     {
-        return static::createUrl('/page/help');
+        return Url::toRoute('/page/help');
+    }
+
+    /**
+     * @return string
+     */
+    public static function loginUrl()
+    {
+        return Url::toRoute('/login');
     }
 
     /**
