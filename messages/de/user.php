@@ -66,7 +66,7 @@ return [
     'noti_amend_mymotion_merge' => "\nWenn du diesem Änderungsvorschlag zustimmst, kannst du ihn in deinen Antrag übernehmen (\"In den Antrag übernehmen\" in der Sidebar)",
     'noti_new_comment_title'    => '[Antragsgrün] Neuer Kommentar zu %TITLE%',
     'noti_new_comment_body'     => "Es wurde ein neuer Kommentar zu %TITLE% geschrieben:\n%LINK%",
-    'acc_grant_email_title'     => 'Antragsgrün-Zugriff',
+    'acc_grant_email_title'     => 'Mitdiskutieren und abstimmen: DiB und der European Spring',
     'acc_grant_email_userdata'  => "E-Mail / Benutzer*innenname: %EMAIL%\nPasswort: %PASSWORD%",
 
     'login_title'             => 'Login',
