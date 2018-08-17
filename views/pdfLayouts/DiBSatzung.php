@@ -163,7 +163,7 @@ class DiBSatzung extends IPDFLayout
         }
 
         $str = $amendment->getMyMotion()->motionType->titleSingular;
-        $pdf->SetFont('helvetica', 'B', '25');
+        $pdf->SetFont('helvetica', 'B', '20');
         $width = $pdf->GetStringWidth($str);
 
         $pdf->SetXY((210 - $width) / 2, 60);
