@@ -131,11 +131,11 @@ class DiBSatzung extends IPDFLayout
             $revName = $amendment->titlePrefix;
             if ($revName == '') {
                 $revName = \Yii::t('export', 'draft');
-                $pdf->SetFont('helvetica', 'I', '25');
-                $width = $pdf->GetStringWidth($revName, 'helvetica', 'I', '25') + 3.1;
+                $pdf->SetFont('helvetica', 'I', '20');
+                $width = $pdf->GetStringWidth($revName, 'helvetica', 'I', '20') + 3.1;
             } else {
-                $pdf->SetFont('helvetica', 'B', '25');
-                $width = $pdf->GetStringWidth($revName, 'helvetica', 'B', '25') + 3.1;
+                $pdf->SetFont('helvetica', 'B', '20');
+                $width = $pdf->GetStringWidth($revName, 'helvetica', 'B', '20') + 3.1;
             }
             if ($width < 35) {
                 $width = 35;

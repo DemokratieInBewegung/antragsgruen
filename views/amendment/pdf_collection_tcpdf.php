@@ -16,6 +16,8 @@ if (count($amendments) === 0) {
 }
 
 $pdfLayout = $amendments[0]->getMyMotion()->motionType->getPDFLayoutClass();
+if ($pdfLayout == null)
+    $pdfLayout = $amendments[0]->getMyMotion()->motionType->getDefaultPDFLayoutClass();
 $pdf       = $pdfLayout->createPDFClass();
 
 // set document information

@@ -218,6 +218,19 @@ class ConsultationMotionType extends ActiveRecord
     }
 
     /**
+     * @return IPDFLayout|null
+     * @throws \app\models\exceptions\Internal
+     */
+    public function getDefaultPDFLayoutClass()
+    {
+        $class = IPDFLayout::getClassById(0);
+        if ($class === null) {
+            return null;
+        }
+        return new $class($this);
+    }
+
+    /**
      * @return string
      */
     public function getOdtTemplateFile()
