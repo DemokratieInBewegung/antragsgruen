@@ -163,6 +163,8 @@ class ByLDK extends IPDFLayout
         }
 
         $str = $amendment->getMyMotion()->motionType->titleSingular;
+        if ($str == "Eigenständiger Antrag")
+            $str = "Änderungsantrag";
         $pdf->SetFont('helvetica', 'B', '25');
         $width = $pdf->GetStringWidth($str);
 
