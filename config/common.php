@@ -14,7 +14,9 @@ define('PCLZIP_TEMPORARY_DIR', $params->tmpDir);
 
 
 if (ini_get('date.timezone') == '') {
-    date_default_timezone_set('Europe/Berlin');
+    $timezone = 'Europe/Berlin';
+    date_default_timezone_set($timezone);
+    ini_set('date.timezone', $timezone);
 }
 ini_set('tidy.clean_output', false);
 ini_set('default_charset', 'UTF-8');
