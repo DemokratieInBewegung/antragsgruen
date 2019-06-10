@@ -21,6 +21,9 @@ class LayoutHelper
      */
     public static function showMotion(Motion $motion, Consultation $consultation)
     {
+        if ($motion->underlyingAmendment)
+            return;
+
         $hasPDF = ($motion->getMyMotionType()->getPDFLayoutClass() !== null);
 
         /** @var Motion $motion */
@@ -88,11 +91,50 @@ class LayoutHelper
                 }
                 echo '</span>' . "\n";
                 echo "<span class='clearfix'></span>\n";
+                self::showNestedAmendments($consultation, $amend);
                 echo '</li>' . "\n";
             }
             echo '</ul>';
         }
         echo '</li>' . "\n";
+    }
+
+    /**
+     * @param Amendment $amendment
+     * @param Consultation $consultation
+     * @throws \app\models\exceptions\Internal
+     */
+
+    private static function showNestedAmendments($consultation, $amendment)
+    {
+        if ($amendment->amendedMotion) {
+            $amendments = MotionSorter::getSortedAmendments($consultation, $amendment->amendedMotion->getVisibleAmendments());
+            if (sizeof($amendments) > 0) {
+                echo '<ul style="list-style-type: circle">';
+                foreach ($amendments as $amend) {
+                    if ($amend->status == Amendment::STATUS_WITHDRAWN) {
+                        echo '<li class="withdrawn amendment">';
+                    }
+                    else {
+                        echo '<li>';
+                    }
+                    echo '<span class="date" style="right: 3px; position: absolute">' . Tools::formatMysqlDate($amend->dateCreation) . '</span>' . "\n";
+                    $title = (trim($amend->titlePrefix) == '' ? \Yii::t('amend', 'amendment') : $amend->titlePrefix);
+                    echo '<a style="font-weight: bold; margin-right: 5px" href="' . Html::encode(UrlHelper::createAmendmentUrl($amend)) . '" ' .
+                        'class="amendmentTitle amendment' . $amend->id . '">' . Html::encode($title) . '</a>';
+                    echo '<span class="info">';
+                    echo Html::encode($amend->getInitiatorsStr());
+                    if ($amend->status == Motion::STATUS_WITHDRAWN) {
+                        echo ' <span class="status">(' . Html::encode($amend->getStatusNames()[$amend->status]) . ')</span>';
+                    }
+                    echo '</span>' . "\n";
+                    echo "<span class='clearfix'></span>\n";
+                    self::showNestedAmendments($consultation, $amend);
+                    echo '</li>' . "\n";
+                }
+                echo '</ul>';
+            }
+        }
     }
 
     /**

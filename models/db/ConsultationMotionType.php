@@ -38,6 +38,7 @@ use yii\db\ActiveRecord;
  * @property int $supportType
  * @property string $supportTypeSettings
  * @property int $amendmentMultipleParagraphs
+ * @property int $amendAmendments
  * @property int $status
  * @property string $settings
  * @property int $sidebarCreateButton
@@ -409,11 +410,12 @@ class ConsultationMotionType extends ActiveRecord
             [['policyMotions', 'policyAmendments', 'policyComments', 'policySupportMotions'], 'required'],
             [['policySupportAmendments', 'initiatorsCanMergeAmendments', 'supportType', 'status'], 'required'],
             [['contactName', 'contactEmail', 'contactPhone', 'amendmentMultipleParagraphs', 'position'], 'required'],
+            [['amendAmendments'], 'required'],
 
             [['id', 'consultationId', 'position', 'contactName', 'contactEmail', 'contactPhone'], 'number'],
             [['status', 'amendmentMultipleParagraphs', 'amendmentLikesDislikes', 'motionLikesDislikes'], 'number'],
             [['policyMotions', 'policyAmendments', 'policyComments', 'policySupportMotions'], 'number'],
-            [['initiatorsCanMergeAmendments', 'pdfLayout', 'sidebarCreateButton'], 'number'],
+            [['initiatorsCanMergeAmendments', 'pdfLayout', 'sidebarCreateButton', 'amendAmendments'], 'number'],
 
             [['titleSingular', 'titlePlural', 'createTitle', 'motionLikesDislikes', 'amendmentLikesDislikes'], 'safe'],
             [['motionPrefix', 'position', 'supportType', 'contactName', 'contactEmail', 'contactPhone'], 'safe'],

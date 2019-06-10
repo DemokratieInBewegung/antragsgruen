@@ -51,6 +51,7 @@ use yii\helpers\Html;
  * @property Motion $replacedMotion
  * @property Motion[] $replacedByMotions
  * @property VotingBlock $votingBlock
+ * @property Amendment $underlyingAmendment
  */
 class Motion extends IMotion implements IRSSItem
 {
@@ -1188,5 +1189,14 @@ class Motion extends IMotion implements IRSSItem
         }
 
         return $data;
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getUnderlyingAmendment()
+    {
+        return $this->hasOne(Amendment::class, ['id' => 'amendmentId'])
+                ->viaTable('amendedMotion', ['motionId' => 'id']);
     }
 }

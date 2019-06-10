@@ -233,6 +233,7 @@ CREATE TABLE `###TABLE_PREFIX###consultationMotionType` (
   `supportType`                  int(11)      NOT NULL,
   `supportTypeSettings`          text,
   `amendmentMultipleParagraphs`  tinyint(1)            DEFAULT NULL,
+  `amendAmendments`              tinyint(1)            DEFAULT NULL,
   `status`                       smallint(6)  NOT NULL,
   `layoutTwoCols`                smallint(6)           DEFAULT '0'
 )
@@ -539,6 +540,19 @@ CREATE TABLE `###TABLE_PREFIX###motionSupporter` (
 CREATE TABLE `###TABLE_PREFIX###motionTag` (
   `motionId` INT(11) NOT NULL,
   `tagId`    INT(11) NOT NULL
+)
+  ENGINE = InnoDB
+  DEFAULT CHARSET = utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `amendedMotion`
+--
+
+CREATE TABLE `###TABLE_PREFIX###amendedMotion` (
+  `motionId`    INT(11) NOT NULL,
+  `amendmentId` INT(11) NOT NULL
 )
   ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;

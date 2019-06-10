@@ -36,6 +36,7 @@ trait Motion
         $type->supportType                  = ISupportType::ONLY_INITIATOR;
         $type->texTemplateId                = 1;
         $type->amendmentMultipleParagraphs  = 1;
+        $type->amendAmendments              = 0;
         $type->motionLikesDislikes          = 0;
         $type->amendmentLikesDislikes       = 0;
         $type->status                       = ConsultationMotionType::STATUS_VISIBLE;
