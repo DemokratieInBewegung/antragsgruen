@@ -36,6 +36,7 @@ trait Application
         $type->contactEmail                 = ConsultationMotionType::CONTACT_REQUIRED;
         $type->supportType                  = ISupportType::ONLY_INITIATOR;
         $type->amendmentMultipleParagraphs  = 0;
+        $type->amendAmendments              = 0;
         $type->motionLikesDislikes          = 0;
         $type->amendmentLikesDislikes       = 0;
         $type->status                       = ConsultationMotionType::STATUS_VISIBLE;

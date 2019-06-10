@@ -111,6 +111,7 @@ class MotionController extends AdminBase
             $input = \Yii::$app->request->post('type');
             $motionType->setAttributes($input);
             $motionType->amendmentMultipleParagraphs = (isset($input['amendSinglePara']) ? 0 : 1);
+            $motionType->amendAmendments             = (isset($input['amendAmendments']) ? 1 : 0);
             $motionType->sidebarCreateButton         = (isset($input['sidebarCreateButton']) ? 1 : 0);
 
             $deadlineForm = DeadlineForm::createFromInput(\Yii::$app->request->post('deadlines'));
@@ -252,6 +253,7 @@ class MotionController extends AdminBase
                     $motionType->contactEmail                 = ConsultationMotionType::CONTACT_OPTIONAL;
                     $motionType->contactPhone                 = ConsultationMotionType::CONTACT_OPTIONAL;
                     $motionType->amendmentMultipleParagraphs  = 1;
+                    $motionType->amendAmendments              = 0;
                     $motionType->position                     = 0;
                     $motionType->supportType                  = ISupportType::ONLY_INITIATOR;
                     $motionType->status                       = 0;
