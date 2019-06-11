@@ -256,7 +256,7 @@ class ConsultationAgendaItem extends ActiveRecord
         $statuses  = $this->consultation->getInvisibleMotionStatuses(!$includeWithdrawn);
         $return = [];
         foreach ($this->motions as $motion) {
-            if (!in_array($motion->status, $statuses)) {
+            if (!$motion->underlyingAmendment && !in_array($motion->status, $statuses)) {
                 $return[] = $motion;
             }
         }

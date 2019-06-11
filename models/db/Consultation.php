@@ -368,7 +368,7 @@ class Consultation extends ActiveRecord
     {
         $return = [];
         foreach ($this->motions as $motion) {
-            if (!in_array($motion->status, $this->getInvisibleMotionStatuses(!$includeWithdrawn))) {
+            if (!$motion->underlyingAmendment && !in_array($motion->status, $this->getInvisibleMotionStatuses(!$includeWithdrawn))) {
                 $return[] = $motion;
             }
         }
