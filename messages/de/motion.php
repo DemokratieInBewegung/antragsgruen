@@ -104,7 +104,7 @@ Bitte beachte, dass sich die Unterstützer*innen deines Antrags mit ihren Zugang
     'submitted_supp_phase_email_subject' => 'Antrag erfolgreich angelegt',
     'submitted_adminnoti_title'          => 'Neuer Antrag',
     'submitted_adminnoti_body'           => "Es wurde ein neuer Antrag eingereicht.\nTitel: %TITLE%\nAntragsteller*in: %INITIATOR%\nLink: %LINK%",
-    'screened_hint'                      => 'Geprüft',
+    'screened_hint'                      => 'Eingereicht',
     'supporting_permitted'               => 'Berechtigung',
     'download_pdf'                       => 'PDF-Version herunterladen',
     'motion_text'                        => 'Antragstext',

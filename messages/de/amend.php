@@ -49,7 +49,7 @@ Bitte beachte, dass sich die Unterstützer*innen deines Änderungsantrags mit ih
         "Mit freundlichen Grüßen,\n" .
         "  Das Antragsgrün-Team",
     'submitted_screening_email_subject' => 'Änderungsantrag eingereicht',
-    'screened_hint'                     => 'Geprüft',
+    'screened_hint'                     => 'Eingereicht',
     'amend_for'                         => ' zu ',
     'create_explanation'                => 'Bitte ändere unten den ursprünglichen Text so ab, wie du ihn gerne beschlossen haben möchtest.<br><br>' . "\n" .
         'Unter &bdquo;<strong>Begründung</strong>&ldquo; kannst du die Änderung begründen. Die Erfahrung zeigt, dass Anträge mit einer schriftlichen Begründung deutlich häufiger angenommen werden.<br>',

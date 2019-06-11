@@ -83,7 +83,7 @@ return [
     'confirmed_visible'             => 'You submitted the motion. It is visible immediately.',
     'confirmed_screening'           => 'You submitted the motion. It will be screened now.',
 
-    'screened_hint'             => 'Screened',
+    'screened_hint'             => 'Submitted',
     'supporting_permitted'      => 'Berechtigung',
     'download_pdf'              => 'PDF version',
     'motion_text'               => 'Motion text',

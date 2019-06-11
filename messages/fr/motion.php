@@ -79,7 +79,7 @@ return [
     'confirmed_visible'             => 'Tu as déposé la motion. Elle est visible dès maintenant.',
     'confirmed_screening'           => 'Tu as déposé ta motion. Elle sera maintenant examinée.',
 
-    'screened_hint'             => 'Examiné',
+    'screened_hint'             => 'Déposé',
     'supporting_permitted'      => 'Permission',
     'download_pdf'              => 'Version PDF',
     'motion_text'               => 'Text de la motion',

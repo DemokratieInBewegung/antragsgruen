@@ -34,7 +34,7 @@ return [
     'confirmed_visible'        => 'You submitted the amendment. It is visible immediately.',
     'confirmed_screening'      => 'You submitted the amendment. It will be screened now.',
 
-    'screened_hint'             => 'Screened',
+    'screened_hint'             => 'Submitted',
     'amend_for'                 => ' to ',
     'create_explanation'        => 'Please amend the motion as you like. Explain in the  &quot;Reason&quot; section below.<br>' . "\n" .
         'Please note, you can request &quot;Editorial changes&quot;.',

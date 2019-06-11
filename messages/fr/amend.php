@@ -27,7 +27,7 @@ return [
     'confirmed_visible'      => 'Tu as déposé ton amendement. Il est visible immédiatement.',
     'confirmed_screening'    => 'Tu as déposé ton amendement. Il sera examiné avant d\être visible.',
 
-    'screened_hint'             => 'Examiné',
+    'screened_hint'             => 'Déposé',
     'amend_for'                 => ' à ',
     'create_explanation'        => 'Tu peux amender la motion comme tu le souhaites. Explique dans la section  &quot;Reason&quot; ci-dessous.<br>' . "\n" .
         'Note que tu peux demander des &quot;Editorial changes&quot;.',
