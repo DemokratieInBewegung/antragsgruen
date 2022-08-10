@@ -31,7 +31,7 @@
         "gulp-postcss": "^8.0.0",
         "gulp-sass": "^4.0.1",
         "gulp-sourcemaps": "^2.6.4",
-        "gulp-typescript": "^4.0.2",
+        "gulp-typescript": "^5.0.1",
         "gulp-uglify": "^3.0.0",
         "intl": "^1.2.5",
         "jquery": "^3.6.0",
