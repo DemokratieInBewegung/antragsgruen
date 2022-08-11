@@ -21,7 +21,7 @@
         "@types/jquery": "^3.5.14",
         "@types/sortablejs": "^1.13.0",
         "@types/typeahead": "^0.11.32",
-        "autoprefixer": "^8.6.1",
+        "autoprefixer": "^9.8.8",
         "bootbox": "^4.4.0",
         "bootstrap-toggle": "*",
         "clipboard": "^2.0.11",
