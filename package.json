@@ -35,7 +35,7 @@
         "gulp-uglify": "^3.0.2",
         "intl": "^1.2.5",
         "jquery": "^3.6.0",
-        "pa11y": "^5.0.4",
+        "pa11y": "^6.2.3",
         "pdfjs-dist": "^2.15.349",
         "requirejs": "^2.3.5",
         "sortablejs": "^1.15.0",
