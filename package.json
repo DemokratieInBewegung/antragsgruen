@@ -17,7 +17,7 @@
         "@types/bootstrap": "^5.2.1",
         "@types/ckeditor": "^4.9.10",
         "@types/clipboard": "^2.0.7",
-        "@types/eonasdan-bootstrap-datetimepicker": "4.17.22",
+        "@types/eonasdan-bootstrap-datetimepicker": "4.17.29",
         "@types/jquery": "^3.5.14",
         "@types/sortablejs": "^1.13.0",
         "@types/typeahead": "^0.11.32",
@@ -48,7 +48,7 @@
     "dependencies": {
         "clone-buffer": "^1.0.0",
         "cloneable-readable": "^3.0.0",
-        "eonasdan-bootstrap-datetimepicker": "^4.17.47",
+        "eonasdan-bootstrap-datetimepicker": "^4.17.49",
         "isotope-layout": "^3.0.6",
         "moment": "^2.29.4",
         "remove-trailing-separator": "^1.1.0"
