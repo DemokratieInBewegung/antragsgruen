@@ -14,7 +14,7 @@
     },
     "devDependencies": {
         "@types/bootbox": "^4.4.36",
-        "@types/bootstrap": "^5.2.1",
+        "@types/bootstrap": "^5.2.2",
         "@types/ckeditor": "^4.9.10",
         "@types/clipboard": "^2.0.7",
         "@types/eonasdan-bootstrap-datetimepicker": "4.17.29",
