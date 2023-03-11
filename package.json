@@ -34,7 +34,7 @@
         "gulp-typescript": "^5.0.1",
         "gulp-uglify": "^3.0.2",
         "intl": "^1.2.5",
-        "jquery": "^3.6.3",
+        "jquery": "^3.6.4",
         "pa11y": "^6.2.3",
         "pdfjs-dist": "^3.4.120",
         "requirejs": "^2.3.6",
