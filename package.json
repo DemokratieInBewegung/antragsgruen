@@ -18,7 +18,7 @@
         "@types/ckeditor": "^4.9.10",
         "@types/clipboard": "^2.0.7",
         "@types/eonasdan-bootstrap-datetimepicker": "4.17.30",
-        "@types/jquery": "^3.5.22",
+        "@types/jquery": "^3.5.25",
         "@types/sortablejs": "^1.15.3",
         "@types/typeahead": "^0.11.32",
         "autoprefixer": "^9.8.8",
