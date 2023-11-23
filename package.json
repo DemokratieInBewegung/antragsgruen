@@ -19,7 +19,7 @@
         "@types/clipboard": "^2.0.7",
         "@types/eonasdan-bootstrap-datetimepicker": "4.17.32",
         "@types/jquery": "^3.5.29",
-        "@types/sortablejs": "^1.15.5",
+        "@types/sortablejs": "^1.15.7",
         "@types/typeahead": "^0.11.32",
         "autoprefixer": "^9.8.8",
         "bootbox": "^5.5.2",
