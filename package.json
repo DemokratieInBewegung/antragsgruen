@@ -36,7 +36,7 @@
         "intl": "^1.2.5",
         "jquery": "^3.7.1",
         "pa11y": "^6.2.3",
-        "pdfjs-dist": "^4.0.269",
+        "pdfjs-dist": "^4.0.379",
         "requirejs": "^2.3.6",
         "sortablejs": "^1.15.1",
         "typeahead.js": "^0.11.1",
