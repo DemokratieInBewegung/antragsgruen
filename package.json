@@ -40,7 +40,7 @@
         "requirejs": "^2.3.7",
         "sortablejs": "^1.15.3",
         "typeahead.js": "^0.11.1",
-        "typescript": "^5.6.3"
+        "typescript": "^5.7.2"
     },
     "directories": {
         "bin": "./bin/"
