@@ -28,7 +28,7 @@
         "fuelux": "^3.17.2",
         "gulp": "^5.0.0",
         "gulp-concat": "^2.6.1",
-        "gulp-postcss": "^8.0.0",
+        "gulp-postcss": "^10.0.0",
         "gulp-sass": "^6.0.0",
         "gulp-sourcemaps": "^3.0.0",
         "gulp-typescript": "^5.0.1",
