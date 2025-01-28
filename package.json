@@ -22,7 +22,7 @@
         "@types/sortablejs": "^1.15.8",
         "@types/typeahead": "^0.11.32",
         "autoprefixer": "^9.8.8",
-        "bootbox": "^5.5.2",
+        "bootbox": "^6.0.0",
         "bootstrap-toggle": "*",
         "clipboard": "^2.0.11",
         "fuelux": "^3.17.2",
